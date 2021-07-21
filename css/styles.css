@@ -21,14 +21,23 @@ h1 {
   text-align: left;
   padding-left: 130px;
   padding-top: 20px;
-
   font-family: SF UI Display;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
   line-height: 57px;
-
   color: #091312;
+}
+
+h2 {
+  text-align: left;
+  padding-left: 130px;
+  padding-top: 20px;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 #sup {
@@ -88,6 +97,30 @@ h1 {
   border-radius: 40px;
 }
 
+.button4 {
+  color: white;
+  padding: 10px;
+  width: 211px;
+  height: 44px;
+  font-size: 18px;
+
+  background: #00656e;
+  border: 2px solid #00656e;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+
+.button5 {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 40px;
+  width: 127.25px;
+  height: 33px;
+  margin-top: 200px;
+  margin-left: -250px;
+}
+
 #busqueda {
   padding-top: 50px;
 }
@@ -130,4 +163,236 @@ h1 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50%;
+}
+
+.contenedor {
+  background: #ffffff;
+  border: 2px solid #555555;
+  box-sizing: border-box;
+  width: 182px;
+  height: 227px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.contenedor2 {
+  background: #ffffff;
+  border: 2px solid #555555;
+  box-sizing: border-box;
+  width: 254px;
+  height: 330.46px;
+  border-radius: 20px;
+  margin-left: 18px;
+  margin-bottom: 48px;
+  overflow: hidden;
+}
+
+.contenedor2 img {
+  margin: 0 auto 0 auto;
+  width: 73px;
+  position: relative;
+}
+
+.textgeneral {
+  position: relative;
+  top: -80px;
+}
+
+.textgeneral p {
+  margin: 10px;
+  padding: 0px;
+}
+
+.contenedor img {
+  margin-top: 50px;
+  width: 66.2px;
+}
+
+.contenedor p {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.tabla {
+  margin-left: 10%;
+  margin-top: 3%;
+  max-width: 100%;
+  width: 80%;
+}
+
+.flecha {
+  margin: 20px;
+}
+
+.flecha img {
+  width: 24px;
+  height: 35px;
+}
+
+.seccion1 {
+  display: inline-block;
+  width: 60%;
+  font-style: normal;
+  color: #000000;
+}
+
+.seccion1 table thead {
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #00656e;
+}
+
+.seccion1 table tbody {
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.seccion1 table tfoot {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+}
+.seccion1 table tbody td {
+  padding: 30px;
+}
+
+.seccion1 table tbody td p {
+  display: inline;
+  position: relative;
+}
+.seccion1 table tbody td img {
+  width: 30px;
+  display: inline;
+  position: relative;
+}
+.seccion2 {
+  display: inline;
+  width: 30%;
+  text-align: center;
+  vertical-align: top;
+}
+.seccion2 img {
+  width: 507px;
+  margin-top: 50px;
+}
+
+#tpart table {
+  width: 70%;
+  max-width: 100%;
+  margin-left: 10px;
+}
+#tpart table td {
+  padding: 5px;
+}
+.bannerprincipal {
+  width: 613px;
+  height: 348.69px;
+  background-image: url("../images/banner1.jpg");
+  border-radius: 20px;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #ffffff;
+
+  align-items: center;
+  justify-content: left;
+  display: flex;
+}
+
+.bannerprincipal p {
+  width: 40%;
+  margin-left: 42px;
+}
+
+.bannersecundario {
+  width: 215.41px;
+  height: 181.41px;
+  border-radius: 20px;
+  align-items: flex-end;
+  font-family: Roboto;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.bannerextra {
+  width: 215.41px;
+  height: 181.41px;
+  font-family: Roboto;
+  background-color: white;
+  border: 2px solid #cccccc;
+  border-radius: 20px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #00656e;
+  align-items: center;
+  display: flex;
+
+  justify-content: center;
+}
+
+.uno {
+  background-image: url("../images/banner1.jpg");
+}
+.dos {
+  background-image: url("../images/banner1.jpg");
+}
+.tres {
+  background-image: url("../images/banner1.jpg");
+}
+.cuatro {
+  background-image: url("../images/banner1.jpg");
+}
+.cinco {
+  background-image: url("../images/banner1.jpg");
+}
+
+#cuartpart {
+  padding: 25px;
+  text-align: center;
+}
+
+.imgcont {
+  width: 340px;
+  height: 220px;
+  position: relative;
+  top: -50px;
+}
+
+.title1 {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+
+  text-align: center;
+}
+.title2 {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+
+  text-align: center;
+  color: #707070;
 }
