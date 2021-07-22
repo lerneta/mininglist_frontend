@@ -1,3 +1,9 @@
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 nav ul {
   margin: 25px;
   border: 0;
@@ -61,7 +67,6 @@ h2 {
 
 .button1 {
   background: white;
-
   margin-top: -10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20.5px;
@@ -74,7 +79,6 @@ h2 {
 .button2 {
   background: #00656e;
   color: white;
-
   margin-top: -10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20.5px;
@@ -90,7 +94,6 @@ h2 {
   width: 200px;
   font-size: 25px;
   margin-left: 130px;
-
   background: #00656e;
   border: 2px solid #00656e;
   box-sizing: border-box;
@@ -103,7 +106,6 @@ h2 {
   width: 211px;
   height: 44px;
   font-size: 18px;
-
   background: #00656e;
   border: 2px solid #00656e;
   box-sizing: border-box;
@@ -195,11 +197,11 @@ h2 {
 
 .textgeneral {
   position: relative;
-  top: -80px;
+  top: -90px;
 }
 
 .textgeneral p {
-  margin: 10px;
+  margin: 5px;
   padding: 0px;
 }
 
@@ -395,4 +397,100 @@ h2 {
 
   text-align: center;
   color: #707070;
+}
+
+.rating {
+  margin-left: -35px;
+  position: relative;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.rating li {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+.rating img {
+  width: 10px;
+}
+
+.contq1 {
+  width: 30%;
+  float: left;
+  position: relative;
+}
+
+.contq1 img {
+  width: 280px;
+  margin-left: 40%;
+  margin-top: 56px;
+}
+
+.contq2 {
+  width: 70%;
+  float: right;
+  position: relative;
+  padding-top: 2%;
+  text-align: center;
+  left: 0%;
+}
+.contq2 table {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  float: left;
+  top: 60px;
+}
+
+.contq2 table td {
+  padding-left: 80px;
+  color: #6c6c6c;
+}
+
+.comentarios {
+  width: 479px;
+  height: 272px;
+  margin: 0 auto 0 auto;
+  margin-top: 100px;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
+
+.firma {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.arrow {
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: -200px;
+  width: 30px;
+  left: 35%;
+}
+
+.selected {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #00656f;
 }
