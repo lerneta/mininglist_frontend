@@ -1,21 +1,28 @@
 /* Ajustes generales de estilo */
 
+@import url(//db.onlinewebfonts.com/c/762c72a2791c9d3eadc7e3b6b935aa69?family=SF+UI+Display);
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
   width: 100%;
   margin: 0px;
   padding: 0px;
+  font-family: SF UI Display;
 }
 
 nav ul {
   margin: 25px;
   border: 0;
+  background-color: #c7dddf;
 }
 
 nav li {
   display: block;
   margin-left: 15px;
   float: right;
-  font-family: SF UI Display;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -28,7 +35,7 @@ a {
   color: black;
   font-family: arial;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 12px;
 }
 
 h1 {
@@ -39,7 +46,9 @@ h1 {
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
-  line-height: 57px;
+  line-height: 70px;
+  margin-bottom: 25px;
+  margin-top: 25px;
   color: #091312;
 }
 
@@ -52,10 +61,12 @@ h2 {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
+  padding-bottom: 24px;
 }
 
 .flecha {
   margin: 20px;
+  margin-top: 80px;
 }
 
 .flecha img {
@@ -65,11 +76,13 @@ h2 {
 
 /* Sección Superior Index */
 #sup {
-  height: 550px;
+  height: 493px;
   background-image: url("../images/ilustracion2.png");
   background-repeat: no-repeat;
-  background-size: 60%;
-  padding: 30px;
+  background-size: 55%;
+  position: relative;
+  top: -25px;
+  padding: 25px;
   background-position: right bottom;
   background-color: #c7dddf;
 }
@@ -92,11 +105,18 @@ h2 {
   margin: 300px;
   border-radius: 200px 200px 200px 200px;
   box-shadow: 10px 10px 34px -8px rgba(0, 0, 0, 0.75);
-
   background: white;
-  width: 45%;
+  width: 527px;
   height: 45px;
   margin: 0 auto 0 auto;
+}
+
+.division {
+  width: 1px;
+  height: 40px;
+  background: #707070;
+  float: left;
+  margin-top: 2px;
 }
 
 #busqueda #container input {
@@ -104,13 +124,16 @@ h2 {
   float: left;
   margin-left: 25px;
   height: 40px;
+  width: 40%;
   color: #555555;
   font-style: normal;
   font-weight: 300;
   font-size: 11px;
   line-height: 13px;
 }
-
+#busqueda #container input:focus {
+  outline: none;
+}
 .search {
   width: 35px;
   height: 35px;
@@ -139,6 +162,8 @@ h2 {
   height: 227px;
   border-radius: 20px;
   text-align: center;
+  display: flex inline;
+  flex-direction: row;
 }
 .contenedor img {
   margin-top: 50px;
@@ -160,16 +185,27 @@ h2 {
   margin-top: 3%;
   max-width: 100%;
   width: 80%;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* Segunda parte */
 
+#segpart {
+  margin-top: 27px;
+}
 .seccion1 {
   display: inline-block;
-  width: 50%;
-  margin-left: 150px;
+  width: 55%;
+  margin-left: 70px;
   font-style: normal;
   color: #000000;
+  height: 170px;
+}
+
+.seccion1 table {
+  margin-top: 23px;
+  margin-bottom: 23px;
 }
 
 .seccion1 table thead {
@@ -197,7 +233,7 @@ h2 {
   line-height: 23px;
 }
 .seccion1 table tbody td {
-  padding: 30px;
+  padding: 15px;
 }
 
 .seccion1 table tbody td p {
@@ -217,7 +253,7 @@ h2 {
 }
 .seccion2 img {
   width: 507px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 /* Tercera parte */
@@ -232,8 +268,9 @@ h2 {
 }
 .bannerprincipal {
   width: 613px;
-  height: 348.69px;
-  background-image: url("../images/banner1.jpg");
+  height: 380px;
+  background-image: url("../images/banner 1.png");
+  background-size: cover;
   border-radius: 20px;
   font-family: SF UI Display;
   font-style: normal;
@@ -254,14 +291,17 @@ h2 {
 }
 
 .bannersecundario {
-  width: 215.41px;
-  height: 181.41px;
+  width: 215px;
+  height: 181px;
   border-radius: 20px;
   align-items: flex-end;
   font-family: Roboto;
   display: flex;
   color: white;
   justify-content: center;
+}
+.bannersecundario p {
+  margin-bottom: 17px;
 }
 
 .bannerextra {
@@ -285,19 +325,45 @@ h2 {
 }
 
 .uno {
-  background-image: url("../images/banner1.jpg");
+  background-image: url("../images/gears-1236578_1920 1.png");
+  background-size: cover;
 }
 .dos {
-  background-image: url("../images/banner1.jpg");
+  background-image: url("../images/meeting-1245776_1920 1.png");
+  background-size: cover;
 }
 .tres {
-  background-image: url("../images/banner1.jpg");
+  background-image: url("../images/consulting-3031678_1920 1.png");
+  background-size: cover;
 }
 .cuatro {
-  background-image: url("../images/banner1.jpg");
+  background-image: url("../images/architect-3979490_1920 1.png");
+  background-size: cover;
 }
 .cinco {
-  background-image: url("../images/banner1.jpg");
+  background-image: url("../images/loader-1846346_1920 1.png");
+  background-size: cover;
+}
+
+.perfil1 {
+  background-image: url("../perfiles/1.png");
+  background-position: bottom bottom;
+}
+.perfil2 {
+  background-image: url("../perfiles/2.png");
+  background-position: bottom bottom;
+}
+.perfil3 {
+  background-image: url("../perfiles/3.png");
+  background-position: bottom bottom;
+}
+.perfil4 {
+  background-image: url("../perfiles/4.png");
+  background-position: bottom bottom;
+}
+.perfil5 {
+  background-image: url("../perfiles/5.png");
+  background-position: bottom bottom;
 }
 
 /* Cuarta parte */
@@ -327,9 +393,9 @@ h2 {
 
 .imgcont {
   width: 340px;
-  height: 220px;
+  height: 160px;
   position: relative;
-  top: -50px;
+  top: -5px;
 }
 
 .title1 {
@@ -354,6 +420,7 @@ h2 {
   margin-left: -35px;
   position: relative;
   margin-top: -5px;
+  margin: 0 auto 0 auto;
   margin-bottom: 10px;
 }
 
@@ -369,7 +436,7 @@ h2 {
 
 .textgeneral {
   position: relative;
-  top: -90px;
+  top: -50px;
 }
 
 .textgeneral p {
@@ -419,6 +486,7 @@ h2 {
   width: 479px;
   height: 272px;
   margin: 0 auto 0 auto;
+  margin-left: 108px;
   margin-top: 100px;
   font-family: SF UI Display;
   font-style: normal;
@@ -444,7 +512,7 @@ h2 {
   position: relative;
   top: -200px;
   width: 30px;
-  left: 35%;
+  left: 20%;
 }
 
 .selected {
@@ -454,6 +522,9 @@ h2 {
   font-size: 24px;
   line-height: 29px;
   text-align: center;
+}
+
+.selected p {
   color: #00656f;
 }
 
@@ -461,6 +532,9 @@ h2 {
 
 footer {
   margin-top: 600px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
 }
 
 footer div {
