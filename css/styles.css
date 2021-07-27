@@ -192,6 +192,98 @@ h2 {
 /* Segunda parte */
 
 #segpart {
+  margin-bottom: 26px;
+}
+
+.seccionprincipal {
+  margin-top: 23px;
+  margin-bottom: 23px;
+  max-width: 100%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 65px 100px 100px 100px;
+  gap: 0px 0px;
+  grid-template-areas:
+    "pregunta pregunta"
+    "item1 item2"
+    "item3 item4"
+    "boton boton";
+}
+
+.seccionprincipal img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.pregunta {
+  grid-area: pregunta;
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #00656e;
+}
+.item1 {
+  grid-area: item1;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 25px;
+  line-height: 23px;
+}
+.item2 {
+  grid-area: item2;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+  line-height: 23px;
+}
+.item4 {
+  grid-area: item4;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+  line-height: 23px;
+}
+.item3 {
+  grid-area: item3;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: row;
+  line-height: 23px;
+}
+.inputbutton {
+  grid-area: boton;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+}
+.inputbutton input {
+  margin: 0 auto 0 auto;
+  margin-left: 35%;
+}
+
+#segpart {
   margin-top: 27px;
 }
 .seccion1 {
@@ -203,48 +295,6 @@ h2 {
   height: 170px;
 }
 
-.seccion1 table {
-  margin-top: 23px;
-  margin-bottom: 23px;
-}
-
-.seccion1 table thead {
-  text-align: center;
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: center;
-  color: #00656e;
-}
-
-.seccion1 table tbody {
-  text-align: left;
-  font-family: Roboto;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 23px;
-}
-
-.seccion1 table tfoot {
-  text-align: center;
-  font-family: Roboto;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 23px;
-}
-.seccion1 table tbody td {
-  padding: 15px;
-}
-
-.seccion1 table tbody td p {
-  display: inline;
-  position: relative;
-}
-.seccion1 table tbody td img {
-  width: 30px;
-  display: inline;
-  position: relative;
-}
 .seccion2 {
   display: inline;
   width: 30%;
@@ -258,14 +308,43 @@ h2 {
 
 /* Tercera parte */
 
-#tpart table {
+#terpart {
   width: 70%;
   max-width: 100%;
   margin-left: 10px;
 }
-#tpart table td {
-  padding: 5px;
+
+.container {
+  display: grid;
+  grid-template-columns: 181px;
+  grid-template-rows: 190px;
+  gap: 10px 10px;
+  grid-template-areas:
+    "BannerPrincipal BannerPrincipal Primero segundo tercero"
+    "BannerPrincipal BannerPrincipal cuarto quinto sexto";
 }
+.BannerPrincipal1 {
+  grid-area: BannerPrincipal;
+}
+.Primero {
+  grid-area: Primero;
+}
+.segundo {
+  grid-area: segundo;
+}
+.tercero {
+  grid-area: tercero;
+}
+.cuarto {
+  grid-area: cuarto;
+}
+.quinto {
+  grid-area: quinto;
+}
+.sexto {
+  grid-area: sexto;
+}
+
 .bannerprincipal {
   width: 613px;
   height: 380px;
@@ -515,6 +594,29 @@ h2 {
   left: 20%;
 }
 
+.emp {
+  display: flex;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  top: 60px;
+}
+
+.empp {
+  margin-left: 80px;
+}
+
 .selected {
   font-family: SF UI Display;
   font-style: normal;
@@ -522,9 +624,6 @@ h2 {
   font-size: 24px;
   line-height: 29px;
   text-align: center;
-}
-
-.selected p {
   color: #00656f;
 }
 
