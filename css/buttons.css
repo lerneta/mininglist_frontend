@@ -1,5 +1,7 @@
 /* Estilos de botones principales */
 
+/* Estilos de botones principales */
+
 @import url(//db.onlinewebfonts.com/c/762c72a2791c9d3eadc7e3b6b935aa69?family=SF+UI+Display);
 
 .button1 {
@@ -28,6 +30,23 @@
   top: 25px;
   left: 1115px;
   border: 2px solid #00656e;
+  box-sizing: border-box;
+  font-family: SF UI Display;
+  border-radius: 40px;
+  box-shadow: 2px 2px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+.buttonfixed {
+  background: #009f95;
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+  width: 86px;
+  margin-top: -10px;
+  height: 29px;
+  top: 25px;
+  left: 1115px;
+  border: 2px solid #009f95;
   box-sizing: border-box;
   font-family: SF UI Display;
   border-radius: 40px;
@@ -78,3 +97,4 @@
   margin-left: -250px;
   box-shadow: 2px 2px 20px -6px rgba(0, 0, 0, 0.75);
 }
+
