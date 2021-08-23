@@ -1,5 +1,7 @@
 /* Ajustes generales de estilo */
 
+/* Ajustes generales de estilo */
+
 @import url(//db.onlinewebfonts.com/c/762c72a2791c9d3eadc7e3b6b935aa69?family=SF+UI+Display);
 
 * {
@@ -149,7 +151,7 @@ h2 {
   position: relative;
   top: -38px;
   left: 3px;
-  background-color: #00656e;
+  background-color: #009f95;
   background-image: url("../images/loupe.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -167,7 +169,7 @@ h2 {
   padding: 25px;
   background-position: right bottom;
   background-color: #c7dddf;
-  z-index: 3;
+  z-index: 1;
 }
 
 .lifloat {
@@ -402,6 +404,7 @@ h2 {
   grid-template-columns: 181px;
   grid-template-rows: 190px;
   gap: 10px 10px;
+  padding-left: 45px;
   grid-template-areas:
     "BannerPrincipal BannerPrincipal Primero segundo tercero"
     "BannerPrincipal BannerPrincipal cuarto quinto sexto";
@@ -533,6 +536,11 @@ h2 {
 #cuartpart {
   padding: 25px;
   text-align: center;
+}
+
+#cuartpart h2 {
+  position: relative;
+  left: -25px;
 }
 
 .contenedor2 {
