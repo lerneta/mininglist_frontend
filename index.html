@@ -37,7 +37,7 @@
               <input type="button" onclick="location.href='pages/login.html'" value="Iniciar Sesión" class="button1" />
             </li>
             <li>
-              <input type="button" onclick="location.href='pages/registro.html'" value="Regístrese" class="button2" />
+              <input type="button" onclick="location.href='pages/registro.html'" value="Regístrese" class="buttonfixed" />
             </li>
             <li><a href="pages/directorio.html">Directorio</a></li>
             <li><a href="pages/comunidad.html">Comunidad</a></li>
@@ -306,4 +306,15 @@
 
     <!--Fin del pie de página-->
   </body>
+  <script type="text/javascript">
+window. onscroll = function() {
+                        var y = window. scrollY;
+                        if(y<=45){
+                          document.all['mensup'].style.display='none';
+                        }else{
+                          document.all['mensup'].style.display='';
+                        }
+                      }
+
+  </script>
 </html>
